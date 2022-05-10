@@ -2,6 +2,7 @@ import { StyleSheet, View } from 'react-native'
 import Basket from './src/screens/Basket'
 import DishDetailsScreen from './src/screens/DishDetailScreen'
 import HomeScreen from './src/screens/HomeScreen'
+import OrderDetails from './src/screens/OrderDetails'
 import OrdersScreen from './src/screens/OrdersScreen'
 import RestaurantDetailsScreen from './src/screens/RestaurantDetailsScreen'
 
@@ -12,7 +13,9 @@ export default function App() {
       {/* <RestaurantDetailsScreen /> */}
       {/* <DishDetailsScreen /> */}
       {/* <Basket /> */}
-      <OrdersScreen />
+      {/* <OrdersScreen /> */}
+      {/* <Basket /> */}
+      <OrderDetails />
     </View>
   )
 }
