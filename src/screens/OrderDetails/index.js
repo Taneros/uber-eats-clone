@@ -2,8 +2,6 @@ import { StyleSheet, Text, View, Image, FlatList } from 'react-native'
 import orders from '../../../assets/data/orders.json'
 import { restaurants } from '../../../assets/data/restaurants'
 import BasketDishItem from '../../components/BasketDishItem'
-import DishListItem from '../../components/DishListItem'
-import OrderListItem from '../../components/OrderListItem'
 
 const order = orders[0]
 
