@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, Image, FlatList } from 'react-native'
+import DishDetailsScreen from './src/screens/DishDetailScreen'
 import HomeScreen from './src/screens/HomeScreen'
 import RestaurantDetailsScreen from './src/screens/RestaurantDetailsScreen'
 
@@ -6,7 +7,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       {/* <HomeScreen /> */}
-      <RestaurantDetailsScreen />
+      {/* <RestaurantDetailsScreen /> */}
+      <DishDetailsScreen />
     </View>
   )
 }
