@@ -5,7 +5,7 @@ restaurants
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
+    <View style={styles.page}>
       <FlatList
         data={restaurants}
         renderItem={({ item }) => <RestaurantItem restaurant={item} />}
@@ -13,3 +13,9 @@ export default function HomeScreen() {
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  page: {
+    padding: 5,
+  },
+})
