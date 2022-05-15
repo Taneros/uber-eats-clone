@@ -15,11 +15,6 @@ const RootNavigator = () => {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="HomeTabs" component={HomeTabs} />
-      {/* <Stack.Screen
-        name="Restaurant"
-        component={RestaurantDetailsScreen}
-        options={{ headerShown: false }}
-      /> */}
     </Stack.Navigator>
   )
 }
